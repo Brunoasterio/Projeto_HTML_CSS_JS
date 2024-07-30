@@ -24,7 +24,7 @@ function logar(){
     }
 
     if(confirmaçao ==""){
-        document.getElementById("resultado").innerHTML = "A confirmaçao da senha é obrigatoria";
+        document.getElementById("resultado").innerHTML = "A confirmação da senha é obrigatorio";
         return;
     }
 
@@ -34,7 +34,7 @@ function logar(){
     }
 
     if(senha == "" || senha.length < 6){
-        document.getElementById("resultado").innerHTML = "A senha precisa ter no minimo 6 caracter";
+        document.getElementById("resultado").innerHTML = "A senha precisa ter no mínimo 6 caracter";
         return;
     }
 
