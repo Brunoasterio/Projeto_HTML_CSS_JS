@@ -17,9 +17,9 @@ function logar(){
 
 
     // Adicionado: Verificação de nome
-    let criadores = ["Bruno_1233456789","Bruno_1233456789"];
+    let criadores = ["Bruno_33318948","Rodrigo_33454264"];
     if (criadores.includes(senha)) {
-        document.getElementById("resultado").innerHTML = "Nome do criador OK!";
+        document.getElementById("resultado").innerHTML = "Nome dos criadores OK!";
         return;
     }
 
